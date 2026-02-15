@@ -1,0 +1,416 @@
+/*===============Background===============*/
+body{
+  background: url('../../img/wallpapers/wallpaper3.jpg');
+  /* background-color: black; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*===============*===============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*===============layout-container===============*/
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*===============mi-header===============*/
+.mi-header{
+    background-color: #08937350;
+    color: white;
+    padding: 20px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.50s;
+}
+
+.mi-header:hover{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============mi-contenido===============*/
+.mi-contenido{
+    flex: 1;
+    padding: 40px;
+    justify-items: center;
+}
+
+/*===============mi-footer===============*/
+.mi-footer{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    transition-duration: 0.50s;
+}
+
+.mi-footer:hover{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============button===============*/
+button{
+    background-color: #085d4c50;
+    border: none;
+    color: white;
+    padding: 12px 27px;
+    margin: 5px;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    box-shadow: 0.3s ease-in-out;
+    clip-path: polygon(
+        0% 100%, 85% 100%, 100% 50%, 100% 0%, 15% 0%, 0% 50%
+        );
+}
+
+button:hover{
+    padding: 20px;
+    border: 2px solid #ecfdf6;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 
+    inset 0 -1em 1em #2dbe95;
+    /* 0 0 0 1px rgb(255, 255, 255),
+    0.3em 0.3em 3em red; */
+}
+
+.contenedor8{
+    margin-left: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+/*===============contenedor0===============*/
+.contenedor0{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    transform: scale(1.2);
+    width: 650px;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    /* justify-items: center;
+    text-align: center; */
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor0:hover{
+    padding: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor0===============*/
+.subcontenedor0{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============subcontenedor1===============*/
+.subcontenedor1{
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+/*===============contenedor0===============*/
+.contenedor1{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    transform: scale(1.2);
+    width: 650px;
+    height: auto;
+    margin: 70px auto 30px auto;
+    padding: 5px;
+    /* justify-items: center;
+    text-align: center; */
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor1:hover{
+    padding: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor0===============*/
+.subcontenedor2{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============subcontenedor1===============*/
+.subcontenedor3{
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+/*===============contenedor0===============*/
+.contenedor2{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    transform: scale(1.2);
+    width: 650px;
+    height: auto;
+    margin: 70px auto 30px auto;
+    padding: 5px;
+    /* justify-items: center;
+    text-align: center; */
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor2:hover{
+    padding: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor0===============*/
+.subcontenedor4{
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+/*===============subcontenedor1===============*/
+.subcontenedor5{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============contenedor0===============*/
+.contenedor3{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    transform: scale(1.2);
+    width: 650px;
+    height: auto;
+    margin: 100px auto 30px auto;
+    padding: 10px;
+    /* justify-items: center;
+    text-align: center; */
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor3:hover{
+    padding: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor0===============*/
+.subcontenedor6{
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+/*===============subcontenedor1===============*/
+.subcontenedor7{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============contenedor0===============*/
+.contenedor4{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    transform: scale(1.2);
+    width: 650px;
+    height: auto;
+    margin: 140px auto 30px auto;
+    padding: 5px;
+    /* justify-items: center;
+    text-align: center; */
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor4:hover{
+    padding: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor0===============*/
+.subcontenedor8{
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+/*===============subcontenedor1===============*/
+.subcontenedor9{
+    flex: 1;
+    margin: 10px;
+}
+
+/*===============contenedor0===============*/
+.contenedor5{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    transform: scale(1.2);
+    width: 650px;
+    height: auto;
+    margin: 130px auto 30px auto;
+    padding: 10px;
+    /* justify-items: center;
+    text-align: center; */
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    color: white;
+    /* display: flex;
+    gap: 15px; */
+}
+
+.contenedor5:hover{
+    padding: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+/*===============subcontenedor0===============*/
+.subcontenedor10{
+    flex: 0;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+/*===============subcontenedor1===============*/
+.subcontenedor11{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============contenedor0===============*/
+.contenedor6{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    transform: scale(1.2);
+    width: 650px;
+    height: auto;
+    margin: 90px auto auto auto;
+    padding: 5px;
+    /* justify-items: center;
+    text-align: center; */
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    color: white;
+    /* display: flex;
+    gap: 15px; */
+}
+
+.contenedor6:hover{
+    padding: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor0===============*/
+.subcontenedor12{
+    flex: 0;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+/*===============contenedor0===============*/
+.contenedor7{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    transform: scale(1.2);
+    width: 650px;
+    height: auto;
+    margin: 120px auto 70px auto;
+    padding: 10px;
+    /* justify-items: center;
+    text-align: center; */
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    color: white;
+    /* display: flex;
+    gap: 15px; */
+}
+
+.contenedor7:hover{
+    padding: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor0===============*/
+.subcontenedor13{
+    flex: 0;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+/*===============img_componente===============*/
+.img_componente{
+    width: 100px;
+    height: 100px;
+}
+
+/*===============img_circuito===============*/
+.img_circuito{
+    width: 600px;
+    height: 250px;
+}
+
+/*===============img_arduino_circuito===============*/
+.img_arduino_circuito{
+    width: 600px;
+    height: 250px;
+}
+
+/*===============a===============*/
+a{
+    text-decoration: none;
+    color: white;
+}
