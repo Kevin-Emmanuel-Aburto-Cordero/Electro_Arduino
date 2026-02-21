@@ -98,22 +98,21 @@ button:hover{
 /*===============contenedor0===============*/
 .contenedor0{
     background: linear-gradient(to top, #08937325, #06765f50);
-    transform: scale(1.2);
-    width: 650px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
     margin: 10px auto 30px auto;
     padding: 5px;
-    /* justify-items: center;
-    text-align: center; */
     border-radius: 14px;
     transition-duration: 0.50s;
+    transition: transform 0.3s ease;
     color: white;
     display: flex;
     gap: 15px;
 }
 
 .contenedor0:hover{
-    padding: 20px;
+    transform: translateY(-5px);
     border: 2px solid white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -137,22 +136,21 @@ button:hover{
 /*===============contenedor0===============*/
 .contenedor1{
     background: linear-gradient(to top, #08937325, #06765f50);
-    transform: scale(1.2);
-    width: 650px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
-    margin: 70px auto 30px auto;
+    margin: 10px auto 30px auto;
     padding: 5px;
-    /* justify-items: center;
-    text-align: center; */
     border-radius: 14px;
     transition-duration: 0.50s;
+    transition: transform 0.3s ease;
     color: white;
     display: flex;
     gap: 15px;
 }
 
 .contenedor1:hover{
-    padding: 20px;
+    transform: translateY(-5px);
     border: 2px solid white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -176,22 +174,21 @@ button:hover{
 /*===============contenedor0===============*/
 .contenedor2{
     background: linear-gradient(to top, #08937325, #06765f50);
-    transform: scale(1.2);
-    width: 650px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
-    margin: 70px auto 30px auto;
+    margin: 10px auto 30px auto;
     padding: 5px;
-    /* justify-items: center;
-    text-align: center; */
     border-radius: 14px;
     transition-duration: 0.50s;
+    transition: transform 0.3s ease;
     color: white;
     display: flex;
     gap: 15px;
 }
 
 .contenedor2:hover{
-    padding: 20px;
+    transform: translateY(-5px);
     border: 2px solid white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -215,22 +212,21 @@ button:hover{
 /*===============contenedor0===============*/
 .contenedor3{
     background: linear-gradient(to top, #08937325, #06765f50);
-    transform: scale(1.2);
-    width: 650px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
-    margin: 100px auto 30px auto;
-    padding: 10px;
-    /* justify-items: center;
-    text-align: center; */
+    margin: 10px auto 30px auto;
+    padding: 5px;
     border-radius: 14px;
     transition-duration: 0.50s;
+    transition: transform 0.3s ease;
     color: white;
     display: flex;
     gap: 15px;
 }
 
 .contenedor3:hover{
-    padding: 20px;
+    transform: translateY(-5px);
     border: 2px solid white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -254,22 +250,21 @@ button:hover{
 /*===============contenedor0===============*/
 .contenedor4{
     background: linear-gradient(to top, #08937325, #06765f50);
-    transform: scale(1.2);
-    width: 650px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
-    margin: 140px auto 30px auto;
+    margin: 10px auto 30px auto;
     padding: 5px;
-    /* justify-items: center;
-    text-align: center; */
     border-radius: 14px;
     transition-duration: 0.50s;
+    transition: transform 0.3s ease;
     color: white;
     display: flex;
     gap: 15px;
 }
 
 .contenedor4:hover{
-    padding: 20px;
+    transform: translateY(-5px);
     border: 2px solid white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -293,22 +288,22 @@ button:hover{
 /*===============contenedor0===============*/
 .contenedor5{
     background: linear-gradient(to top, #08937325, #06765f50);
-    transform: scale(1.2);
-    width: 650px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
-    margin: 130px auto 30px auto;
-    padding: 10px;
-    /* justify-items: center;
-    text-align: center; */
+    margin: 10px auto 30px auto;
+    padding: 5px;
     border-radius: 14px;
     transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    justify-content: center;
     color: white;
-    /* display: flex;
-    gap: 15px; */
+    display: flex;
+    gap: 15px;
 }
 
 .contenedor5:hover{
-    padding: 20px;
+    transform: translateY(-5px);
     border: 2px solid white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -330,22 +325,19 @@ button:hover{
 /*===============contenedor0===============*/
 .contenedor6{
     background: linear-gradient(to top, #08937325, #06765f50);
-    transform: scale(1.2);
-    width: 650px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
-    margin: 90px auto auto auto;
+    margin: 10px auto 30px auto;
     padding: 5px;
-    /* justify-items: center;
-    text-align: center; */
     border-radius: 14px;
     transition-duration: 0.50s;
+    transition: transform 0.3s ease;
     color: white;
-    /* display: flex;
-    gap: 15px; */
 }
 
 .contenedor6:hover{
-    padding: 20px;
+    transform: translateY(-5px);
     border: 2px solid white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -353,31 +345,33 @@ button:hover{
 
 /*===============subcontenedor0===============*/
 .subcontenedor12{
+    /* display: flex;
+    gap: 10px;
     flex: 0;
     margin: 10px;
     width: auto;
-    height: auto;
+    height: auto; */
 }
 
 /*===============contenedor0===============*/
 .contenedor7{
     background: linear-gradient(to top, #08937325, #06765f50);
-    transform: scale(1.2);
-    width: 650px;
+    max-width: 900px;
+    width: 100%;
     height: auto;
-    margin: 120px auto 70px auto;
-    padding: 10px;
-    /* justify-items: center;
-    text-align: center; */
+    margin: 10px auto 30px auto;
+    padding: 20px;
     border-radius: 14px;
     transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    justify-content: center;
     color: white;
-    /* display: flex;
-    gap: 15px; */
+    display: flex;
+    gap: 15px;
 }
 
 .contenedor7:hover{
-    padding: 20px;
+    transform: translateY(-5px);
     border: 2px solid white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -385,10 +379,10 @@ button:hover{
 
 /*===============subcontenedor0===============*/
 .subcontenedor13{
-    flex: 0;
+    /* flex: 0;
     margin: 10px;
     width: auto;
-    height: auto;
+    height: auto; */
 }
 
 /*===============img_componente===============*/
@@ -407,6 +401,27 @@ button:hover{
 .img_arduino_circuito{
     width: 600px;
     height: 250px;
+}
+
+/*===============img_formula===============*/
+.img_formula{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 35%;
+}
+
+/*===============table===============*/
+table{
+    border: solid 2px red;
+}
+
+th{
+    border: solid 2px yellow;
+}
+
+td{
+    border: solid 2px purple;
 }
 
 /*===============a===============*/

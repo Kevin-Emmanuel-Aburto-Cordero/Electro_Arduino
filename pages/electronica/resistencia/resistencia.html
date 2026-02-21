@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../src/assets/css/componentes.css?v=2.0">
+    <link rel="stylesheet" href="../../../src/assets/css/componentes.css?v=4.0">
     <link rel="stylesheet" href="../../../src/assets/css/fonts/fonts.css">
     <title>Document</title>
 </head>
@@ -55,6 +55,42 @@
                         <li><b>I</b> es la corriente entre las dos terminales del resistor.</li>
                         <li><b>R</b> es el valor del resistor</li>
                     </ul>
+                    <br>
+                    <img class="img_formula" src="../../../src/img/electronica/resistencia/circulo-ley-de-ohm.svg" alt="img_formula">
+                    <br>
+                    <h3>¿Cómo se calcula la resistencia eléctrica?</h3>
+                    Si el material de una resistencia es homogéneo y tiene un área transversal
+                    constante, como el cilindrico mostrado en la Figura, entonces la resistencia
+                    está dada por: <br>
+                    <img class="img_formula" src="../../../src/img/electronica/resistencia/calculo-de-la-resistencia-electrica.svg" alt="img_formula">
+                    <img class="img_formula" src="../../../src/img/electronica/resistencia/formula.png" alt="img_formula">
+                    <br>
+                    <ul>
+                        <li><b>ρ</b> es la resistividad o resistencia del material.</li>
+                        <li><b>L</b> es la longitud del alambre.</li>
+                        <li><b>A</b> es el área transversal.</li>
+                        <br>
+                        Mediante fórmula se deduce que:
+                        <br>
+                        <li>Al aumentar  la medida de la sección transversal del conductor, la
+                            resistencia eléctrica al flujo de las cargas disminuye.</li>
+
+                        <li>Al aumentar la medida de longitud del conductor, la resistencia al
+                            flujo de las cargas aumenta.</li>
+                    </ul>
+                    <br><br>
+                    En la siguiente tabla se presentan resistividades de conductoras
+                    comunes.
+                    <br><br>
+                    <table>
+                        <tr>
+                            <th>Resistividad de Conductores</th>
+                        </tr>
+                        <tr>
+                            <td>Material</td>
+                            <td>Resistividad</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
             
@@ -164,16 +200,16 @@
             <div class="contenedor5">
                 <div class="subcontenedor10">
                     <h3>Ejemplo Practico</h3><br>
-                    Vamos a realizar un ejercicio basico y practico de como encender un diodo led. <br>
+                    Vamos a realizar un ejercicio basico y practico de como medir una resistencia con multimetro.<br><br>
                     <h4>Lista de componentes</h4>
                     <ul>
-                        <li>1 Diodo Led</li>
-                        <li>1 Resistencia</li>
-                        <li>1 Protoboard</li>
-                        <li>1 Bateria/Pila</li>
+                        <li>1 Resistor/Resistencia</li>
+                        <li>1 Multimetro</li>
+                        <li>1 Protoboard <b>(Opcional)</b></li>
                     </ul><br>
-                    En la siguiente imagen se muestra como conectar el diodo led.
-                    <img class="img_circuito" src="../../../src/img/electronica/diodo_led/circuito_diodo_led.png" alt="img_circuito">
+                    En la siguiente imagen se muestra como medir el valor de una resistencia por medio de un multimetro.
+                    Nota: Poner el multimetro a Ohmios para poder medir un resistor.
+                    <img class="img_circuito" src="../../../src/img/electronica/resistencia/circuito_resistencia.png" alt="img_circuito">
                 </div>
                 <!-- <div class="subcontenedor11">
                     <h3>Ejemplo Practico con Arduino</h3><br>
@@ -183,8 +219,8 @@
             </div>
 
             <div class="contenedor6">
+                <h2>Datasheet</h2>
                 <div class="subcontenedor12">
-                    <h3>Datasheet</h3>
                     <button type="submit">Descargar Datasheet</button>
                     <button type="submit">Ver Datasheet</button>
                 </div>
@@ -193,40 +229,33 @@
             <div class="contenedor7">
                 <div class="subcontenedor13">
                     <h3>Error Comunes</h3><br>
-                    <h3>Errores de Conexíon y Alimentación</h3>
+                    <h3>Principales Fallas y Errores Técnicos:</h3>
                     <ul>
-                        <li><b>No usar resistencia limitadora (sobrealimentación):</b> Conectar un LED
-                        directamente a una fuente de voltaje (bayeria o fuente de alimentación) si una
-                        resistencia en serie provoca que el diodo consuma demasiada corriente y se queme
-                        instataneamente o reduzca su vida útil.</li><br>
-                        <li><b>Invertir la polaridad:</b> Los LEDs son dispositivos sensibles a la polaridad (ánodo + /
-                        cátodo -). Si se conectan al revés, no encenderán y, en voltajes altos, pueden
-                        dañarse.</li><br>
-                        <li><b>Voltaje incorrecto:</b> Usar un driver (controlador) o fuente de alimentación que no
-                        coincida con el voltaje o la corriente requeridad por el LED (por ejemplo: usar 12V en una tira
-                        de 5V).</li><br>
-                    </ul>
-                    <h3>Errores de Diseño y Operación</h3>
-                    <ul>
-                        <li><b>Falta de disipación de calor (Sobrecalentamiento):</b> Aunque los LEDs son 
-                        eficientes, generan calor en su base. No usar disipadores de aluminio o instalarlos en 
-                        lugares cerrados sin ventilación provoca degradación lumínica (pierden brillo) y fallos 
-                        prematuros.</li><br>
-                        <li><b>Parpadeo por incompatibilidad de Dimmer:</b> Usar reguladores de intensidad 
-                        (dimmers) diseñados para luces incandescentes con bombillas LED, lo que causa 
-                        parpadeos o fallos en el circuito integrado.</li><br>
-                        <li><b>Conexión en serie ineficiente:</b> Si se conectan muchos LEDs en serie y uno falla, el
-                        circuito se abre y ninguno enciende (como luces navideñas), dificultando identificar el 
-                        LED quemado. </li><br>
-                    </ul>
-                    <h3>Errores de Instalación y Calidad</h3>
-                    <ul>
-                        <li><b>Uso de productos de baja calidad:</b> Los LEDs baratos suelen tener drivers (fuentes) 
-                        de baja calidad que fallan rápidamente por sobretensiones.</li><br>
-                        <li><b>Falsos contactos o soldaduras frías:</b> Conexiones mal hechas, cables sueltos
-                         o soldaduras deficientes causan intermitencia o parpadeo.</li><br>
-                        <li><b>Mal manejo (ESD):</b> Manipular los LEDs sin precauciones contra descargas 
-                        electrostáticas (ESD) puede dañarlos internamente antes de utilizarlos. </li>
+                        <li><b>Sobrecarga de potencia:</b>Exceder la capacidad de disipación de calor (P = I<sup>2</sup>R)
+                            provoca que la resistencia  se quema, se carbonice o se abra (circuito abierto).</li><br>
+
+                        <li><b>Alteración del valor (Deriva):</b> Las resistencias pueden aumentar su valor óhmico
+                            debido al calor prolongado o envejecimiento, superando su tolerancia.</li><br>
+
+                        <li><b>Lectura incorrecta de colores:</b> Confundir la banda de tolerancia (generalmente
+                            dorada/plateada) y leer el componente al réves, lo que invierte los digitos
+                            significativos.</li><br>
+
+                        <li><b>Cortocircuito o Circuito Abierto:</b> Una resistencia puede fallar poniendose en corto
+                            (baja a casi 0 Ω) o, más comúnmente, abriendose (resistencia infinita),
+                            interrumpiendo el flujo de corriente.</li><br>
+
+                        <li><b>Daño Mecánico:</b> Flexionar, torcer o someter a vibraciones excesivas la resistencia
+                            durante el montaje (especialmente en resistencias derivación) puede romper
+                            sus terminales internas.</li><br>
+
+                        <li><b>Efectos de Temperatura:</b> No tomar en cuenta el coeficiente de temperatura, donde
+                            el valor real cambia significativamente en entornos extermos.</li><br>
+
+                        <li><b>Uso de Componentes Inadecuados:</b> Usar resistencias de pelicula de carbono
+                            donde se requieren de pelicula metálica (mayor precisión) o de alambre (mayor
+                            potencia).
+                        </li><br>
                     </ul>
                 </div>
             </div>
