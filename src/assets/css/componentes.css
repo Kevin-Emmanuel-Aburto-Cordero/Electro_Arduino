@@ -413,15 +413,43 @@ button:hover{
 
 /*===============table===============*/
 table{
-    border: solid 2px red;
+    border: solid 2px white;
+    border-radius: 10px;
+    text-align: center;
+    justify-self: center;
+    padding: 5px;
 }
 
 th{
-    border: solid 2px yellow;
+    border: solid 2px white;
+    background: linear-gradient(to top, #08937325, #06765f50);
+    border-radius: 6px;
+    text-align: center;
+    width: 400px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
 }
 
 td{
-    border: solid 2px purple;
+    border: solid 2px white;
+    background: linear-gradient(to top, #08937325, #06765f50);
+    border-radius: 6px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+}
+
+th:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+td:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 /*===============a===============*/
