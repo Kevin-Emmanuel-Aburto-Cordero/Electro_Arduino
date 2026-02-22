@@ -1,7 +1,7 @@
 /*===============Background===============*/
 body{
   /* background: linear-gradient(to top, #14b58d, #06766088), url('../../img/wallpapers/wallpaper0.jpg'); */
-  background-image: url('../../img/wallpapers/wallpaper2.jpg');
+  background-image: url('../../img/wallpapers/wallpaper4.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,6 +261,24 @@ button:hover{
 
 /*===============potenciometro===============*/
 .potenciometro{
+    width: 50px;
+    height: 50px;
+}
+
+/*===============diodo_led_rgb===============*/
+.diodo_led_rgb{
+    width: 50px;
+    height: 50px;
+}
+
+/*===============fotoresistor===============*/
+.fotoresistor{
+    width: 50px;
+    height: 50px;
+}
+
+/*===============pulsador===============*/
+.pulsador{
     width: 50px;
     height: 50px;
 }
