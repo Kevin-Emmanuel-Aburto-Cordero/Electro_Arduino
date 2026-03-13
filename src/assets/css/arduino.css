@@ -1,7 +1,7 @@
 /*===============Background===============*/
 body{
   /* background: linear-gradient(to top, #14b58d, #06766088), url('../../img/wallpapers/wallpaper0.jpg'); */
-  background-image: url('../../img/wallpapers/wallpaper4.jpg');
+  background-image: url('../../img/wallpapers/wallpaper1.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -216,9 +216,9 @@ button:hover{
     color: white;
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
-    gap: 10px;                              /* espacio entre cajas */
-    justify-items: center;                 /* centra cada caja */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -226,13 +226,13 @@ button:hover{
     padding: 20px;
     width: 550px;
     height: auto;
-  border: 2px solid white;
-  backdrop-filter: blur(10px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
 
 /*===============caja===============*/
-.caja {
+.caja{
     background-color: #14b58d50;
     width: 100px;
     height: 100px;
@@ -250,44 +250,20 @@ button:hover{
     -webkit-backdrop-filter: blur(10px);
 }
 
-/*===============diodo_led===============*/
-.diodo_led{
+/*===============img_arduino===============*/
+.img_arduino{
+    width: 150px;
+    height: 250px;
+}
+
+/*===============icon_programacion===============*/
+.icon_programacion{
     width: 50px;
     height: 50px;
 }
 
-/*===============resistencia===============*/
-.resistencia{
-    width: 50px;
-    height: 50px;
-}
-
-/*===============capacitor===============*/
-.capacitor{
-    width: 50px;
-    height: 50px;
-}
-
-/*===============potenciometro===============*/
-.potenciometro{
-    width: 50px;
-    height: 50px;
-}
-
-/*===============diodo_led_rgb===============*/
-.diodo_led_rgb{
-    width: 50px;
-    height: 50px;
-}
-
-/*===============fotoresistor===============*/
-.fotoresistor{
-    width: 50px;
-    height: 50px;
-}
-
-/*===============pulsador===============*/
-.pulsador{
+/*===============icon_arduino===============*/
+.icon_arduino{
     width: 50px;
     height: 50px;
 }
