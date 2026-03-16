@@ -1,6 +1,6 @@
 /*===============Background===============*/
 body{
-  background: url('../../img/wallpapers/wallpaper3.jpg');
+  background: url('../../img/wallpapers/wallpaper1.webp');
   /* background-color: black; */
   background-position: center;
   background-repeat: no-repeat;
@@ -123,6 +123,8 @@ button:hover{
 .subcontenedor0{
     flex: 0;
     margin: 10px;
+    width: auto;
+    height: auto;
 }
 
 /*===============subcontenedor1===============*/
@@ -388,9 +390,9 @@ button:hover{
 }
 
 /*===============img_componente===============*/
-.img_componente{
-    width: 100px;
-    height: 100px;
+.img_code_example{
+    width: auto;
+    height: auto;
 }
 
 /*===============img_circuito===============*/

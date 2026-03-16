@@ -25,6 +25,7 @@ body{
 /*===============mi-header===============*/
 .mi-header{
     background-color: #08937350;
+    /* background-color: #08937350; */
     color: white;
     padding: 20px;
     flex-shrink: 0;
