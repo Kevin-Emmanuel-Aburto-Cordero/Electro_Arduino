@@ -6,7 +6,7 @@ include("../config/conexion.php");
 $usuario = $_POST['usuario'];
 $contraseña = $_POST['contraseña'];
 
-$sql = "SELECT idUsuario, usuario, contraseña FROM Usuario WHERE usuario = ? LIMIT 1";
+$sql = "SELECT idUsuario, usuario, contraseña FROM Usuarios WHERE usuario = ? LIMIT 1";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $usuario);
 $stmt->execute();
@@ -19,7 +19,7 @@ if($resultado->num_rows > 0){
         $_SESSION['idUsuario'] = $row['idUsuario'];
         $_SESSION['usuario'] = $row['usuario'];
 
-        header("Location: dashboard.php");
+        header("Location: ../pages/dashboard.php");
         exit();
     }else{
         echo "<script>alert('Contraseña incorrecta.'); window.location.href='../pages/login/login.html'; </script>";
