@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/assets/css/dashboard.css">
+    <link rel="stylesheet" href="../src/assets/css/dashboard.css?v=2.0">
     <link rel="stylesheet" href="../src/assets/css/fonts/fonts.css?v=2.0">
     <title>Document</title>
 </head>
@@ -40,6 +40,11 @@
                     ?>
                     <br>
                 </div>
+            </div>
+            <div class="contenedor1">
+                <button type="submit">Electronica</button>
+                <button type="submit">Arduino</button>
+                <button type="submit">DevOps</button>
             </div>
         </main>
         <footer class="mi-footer">
