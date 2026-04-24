@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../src/assets/css/componentes.css?v=5.0">
+    <link rel="stylesheet" href="../../../src/assets/css/fonts/fonts.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout-containder">
+        <header class="mi-header">
+            <h3>Electro <br>
+            Arduino</h3>
+            <div class="contenedor8">
+                <a href="../../../index.html">
+                    <button type="submit">Home</button>
+                </a>
+                <a href="https://www.arduino.cc/en/software/">
+                    <button type="submit">Arduino Software</button>
+                </a>
+                <a href="https://www.tinkercad.com/">
+                    <button type="submit">Thinker Card</button>
+                </a>
+                <a href="../../../pages/login/login.php">
+                    <button type="submit">Iniciar Sesion</button>
+                </a>
+            </div>
+        </header>
+        <main class="mi-contenido">
+            <div class="contenedor0">
+                <div class="subcontenedor0">
+                    <h3>Resistencia</h3><br>
+                    <img class="img_componente" src="../../../src/img/electronica/resistencia/resistencia.png" alt="img_componente">
+                </div>
+                <div class="subcontenedor1">
+                    <h3>¿Que es?</h3>
+                    Un resistor es un componente electrónico, considerado como un
+                    componente básico pasivo, consta de dos terminales y no tiene
+                    polaridad, su principal función es la disipación de calo, proceso en
+                    el cual se convierte la energia eléctica en energia termina, es decir
+                    calor, la unidad de medida del resistor es de ohm (Ω). Básicamente es
+                    un componente que controla el flujo de electrones entre sus terminales,
+                    por lo tanto, es un elemento pasivo con resistencia electrica al flujo
+                    de carga, en otras palabras, tiene resistencia al flujo de electrones.
+                    La ley de Ohm define la relacion voltaje-corriente caracteristica de
+                    de una resistencia ideal: <br>
+                    <br>
+                    <b>V = RI</b><br>
+                    <br>
+                    Donde: <br>
+                    <br>
+                    <ul>
+                        <li><b>V</b> es la tensión entre las dos terminales del resistor.</li>
+                        <li><b>I</b> es la corriente entre las dos terminales del resistor.</li>
+                        <li><b>R</b> es el valor del resistor</li>
+                    </ul>
+                    <br>
+                    <img class="img_formula" src="../../../src/img/electronica/resistencia/circulo-ley-de-ohm.svg" alt="img_formula">
+                    <br>
+                    <h3>¿Cómo se calcula la resistencia eléctrica?</h3>
+                    Si el material de una resistencia es homogéneo y tiene un área transversal
+                    constante, como el cilindrico mostrado en la Figura, entonces la resistencia
+                    está dada por: <br>
+                    <img class="img_formula" src="../../../src/img/electronica/resistencia/calculo-de-la-resistencia-electrica.svg" alt="img_formula">
+                    <img class="img_formula" src="../../../src/img/electronica/resistencia/formula.png" alt="img_formula">
+                    <br>
+                    <ul>
+                        <li><b>ρ</b> es la resistividad o resistencia del material.</li>
+                        <li><b>L</b> es la longitud del alambre.</li>
+                        <li><b>A</b> es el área transversal.</li>
+                        <br>
+                        Mediante fórmula se deduce que:
+                        <br>
+                        <li>Al aumentar  la medida de la sección transversal del conductor, la
+                            resistencia eléctrica al flujo de las cargas disminuye.</li>
+
+                        <li>Al aumentar la medida de longitud del conductor, la resistencia al
+                            flujo de las cargas aumenta.</li>
+                    </ul>
+                    <br><br>
+                    En la siguiente tabla se presentan resistividades de conductoras
+                    comunes.
+                    <br><br>
+                    <table>
+                        <tr>
+                            <th colspan="2">Resistividad de Conductores</th>
+                        </tr>
+                        <tr>
+                            <td>Material</td>
+                            <td>Resistividad</td>
+                        </tr>
+                        <tr>
+                            <td>Aluminio</td>
+                            <td>2.28 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Carbono</td>
+                            <td>4 x 10<sup>-5</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Cobre</td>
+                            <td>1.7 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Constatán</td>
+                            <td>44 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Hierro</td>
+                            <td>10 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Oro</td>
+                            <td>2.22 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Plata</td>
+                            <td>1.59 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Tungsteno</td>
+                            <td>5.5 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Hierro</td>
+                            <td>8.9 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Platino</td>
+                            <td>10.6 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Germanio</td>
+                            <td>0.46 Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Silicio</td>
+                            <td>640 Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Estaño</td>
+                            <td>11.5 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                        <tr>
+                            <td>Grafito</td>
+                            <td>60 x 10<sup>-8</sup> Ωm</td>
+                        </tr>
+                    </table>
+                    <br><br>
+                    <h3>Tabla de colores de una resistencia</h3>
+                    <img class="img_circuito" src="../../../src/img/electronica/resistencia/colores_resistencia.png" alt="img_circuito">
+                </div>
+            </div>
+            
+            <div class="contenedor1">
+                <div class="subcontenedor2">
+                    <h3>Diodo Led</h3><br>
+                    <h6>Simbolo Esquematico</h6><br>
+                    <img class="img_componente" src="../../../src/img/electronica/resistencia/simbolo_esquematico_resistencia.png" alt="img_componente">
+                </div>
+                <div class="subcontenedor3">
+                    <h3>¿Para que sirve?</h3>
+                    Algunas funciones comunes de las resistencias incluyen:
+                    <br><br>
+                    <ol>
+                        <li><b>Regulador de voltaje</b>
+                            Se pueden ulitilizar resistencias para bajar el voltage en determinados puntos del circuito
+                            diseñando el valor de resistencia adecuado y garantizando que los dispositivos o
+                            componentes circundantes reciban un voltaje que coincida con sus necesidades operativas.
+                        </li>
+                        <br>
+                        <li><b>Regulador de corriente</b> Las resistencias funcionan como reguladores de corriente al limitar la cantidad de
+                            corriente que fluye en un circuito electronico. La resistencias pueden controlar el flujo de
+                            corriente para que se ajuste dentro de los limites deseados estableciendo la resistencia
+                            correcta. Esto es util para proteger los componentes sensibles del circuito contra
+                            sobrecorrientes que pueden causar daños o mal funcionamiento.
+                        </li>
+                        <br>
+                        <li><b>Divisor de voltaje</b> Las resistencias se pueden utilizar como divisores de voltaje en circuitos. Al colocar la
+                            resistencia en una configuración determinada, como un divisor de voltaje, el valor de voltaje
+                            en ciertos pintos del circuito se puede ajustar según sea necesario. Esto proporciona
+                            flexibilidad en el diseño de circuitos electrónicos para lograr lo deseado valores de voltaje en
+                            varios puntos.
+                        </li>
+                        <br>
+                        <li><b>Blindaje de componentes</b> Las resistencias funcionan como protectores de otros componentes electrónicos contra
+                            corrientes excesivas. Colocando una resistencia como parte de un circuito que funciona
+                            como regulador de corriente y protege los componentes más sencibles de daños  causados
+                            por corrientes que exceden los limites permitidos. Las resistencias se convierten en un
+                            componente clave para garantizar la estabilidad y la seguridad operativa de un circuito
+                            electrónico.
+                        </li>
+                        <br>
+
+                    </ol>
+                </div>
+            </div>
+
+            <div class="contenedor2">
+                <div class="subcontenedor4">
+                    <h3>¿Como funciona?</h3>
+                    Un resistor (o resistencia) limita el flujo de corriente eléctrica en un circuito al ofrecer
+                    oposición al paso de los electrones. Funciona convirtiendo el exceso de energia
+                    eléctrica en calor mediante colisiones atómicas (efecto Joule), permitiendo reducir
+                    la corriente y dividir el voltaje en componentes electrónicos.
+                </div>
+                <div class="subcontenedor5">
+                    <img class="img_componente" src="../../../src/img/electronica/resistencia/resistencia.png" alt="img_componente">
+                </div>
+            </div>
+
+            <div class="contenedor3">
+                <div class="subcontenedor6">
+                    <h3>Caracteristicas Principales</h3>
+                    <ul>
+                        <li><b>Funcionamiento y Polaridad:</b> Emiten fotones cuando los electrones atraviesan la
+                        unión P-N. Tienen polaridad definida: el ánodo (+) es la pata larga y el cátodo (-) la
+                        corta. FUncionan solo en polarización directa.</li><br>
+                        <li><b>Eficiencia y Consumo:</b> Ofrece gran potencia lumínica con muy bajo consumo de
+                        energía, siendo más eficientes que las bombillas tradiciolaes.</li><br>
+                        <li><b>Voltaje y Corriente:</b> Requieren bajos voltajes (generalmente 1.5V - 2.5V) y
+                        pequeñas corrientes (aprox. 20mA - 40mA). Necesitan una resistencia en serie
+                        para limitar la corriente y evitar daños.</li><br>
+                        <li><b>Vida útil y Durabilidad:</b> Tienen una vida util muy superior a las bombillas
+                        convencionales, llegando a superar las 60,000 horas. Son resistentes a vibraciones
+                        y golpes.</li><br>
+                        <li><b>Emisión de Luz:</b> Ofrecen luz uniforme, inmediata, sin parpadeosy en diversos
+                        colores según el material semiconductor (GaAs, GaP, GaN)</li><br>
+                        <li><b>Temperatura y Emisión:</b> Producen luz sin apenas generar calor (fríos al tacto) y no
+                        emiten radiación UV ni infrarrojo.</li><br>
+                        <li><b>Sostenibilidad:</b> No contienen elementos tóxicos (como mercurio) y son
+                        reciclables.</li>
+                    </ul>
+                </div>
+                <div class="subcontenedor7">
+                    <img class="img_componente" src="../../../src/img/electronica/resistencia/resistencia.png" alt="img_componente">
+                </div>
+            </div>
+
+            <div class="contenedor4">
+                <div class="subcontenedor8">
+                    <h3>Simbolo y Pinout</h3><br>
+                    <img class="img_componente" src="../../../src/img/electronica/resistencia/simbolo_y_pinout_resistencia.jpg" alt="img_componente">
+                    <h3>Simbolo Electrico</h3><br>
+                    <img class="img_componente" src="../../../src/img/electronica/resistencia/simbolo_electrico_resistencia.jpg" alt="img_componente">
+                    <h3>Si aplica, patillaje</h3>
+                    Un diodo LED (Diodo Emisor de Luz) tiene patillaje polarizado, lo que significa que
+                    tiene un lado positivo y uno negativo que deben conectarse correctamente para que
+                    funcione.
+                    <br>
+                    <img class="img_componente" src="../../../src/img/electronica/resistencia/patillaje_resistencia.webp" alt="img_componente">
+                </div>
+                <!-- <div class="subcontenedor9">
+                    <img class="img_componente" src="../../../src/img/electronica/diodo_led/diodo_led.png" alt="img_componente">
+                </div> -->
+            </div>
+
+            <div class="contenedor5">
+                <div class="subcontenedor10">
+                    <h3>Ejemplo Practico</h3><br>
+                    Vamos a realizar un ejercicio basico y practico de como medir una resistencia con multimetro.<br><br>
+                    <h4>Lista de componentes</h4>
+                    <ul>
+                        <li>1 Resistor/Resistencia</li>
+                        <li>1 Multimetro</li>
+                        <li>1 Protoboard <b>(Opcional)</b></li>
+                    </ul><br>
+                    En la siguiente imagen se muestra como medir el valor de una resistencia por medio de un multimetro.
+                    Nota: Poner el multimetro a Ohmios para poder medir un resistor.
+                    <img class="img_circuito" src="../../../src/img/electronica/resistencia/circuito_resistencia.png" alt="img_circuito">
+                </div>
+                <!-- <div class="subcontenedor11">
+                    <h3>Ejemplo Practico con Arduino</h3><br>
+                    thbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                    <img class="img_arduino_circuito" src="../../../src/img/electronica/diodo_led/arduino_circuito_led.png" alt="img_arduino_circuito">
+                </div> -->
+            </div>
+
+            <div class="contenedor6">
+                <h2>Datasheet</h2>
+                <div class="subcontenedor12">
+                    <a href="../../../src/img/electronica/datasheet_electronica_componentes/resistencia.pdf" download="resistencia.pdf">
+                        <button type="submit">Descargar Datasheet</button>
+                    </a>
+                    <a href="../../../src/img/electronica/datasheet_electronica_componentes/resistencia.pdf" target="_blank" rel="noopener noreferrer">
+                        <button type="submit">Ver Datasheet</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contenedor7">
+                <div class="subcontenedor13">
+                    <h3>Error Comunes</h3><br>
+                    <h3>Principales Fallas y Errores Técnicos:</h3>
+                    <ul>
+                        <li><b>Sobrecarga de potencia:</b>Exceder la capacidad de disipación de calor (P = I<sup>2</sup>R)
+                            provoca que la resistencia  se quema, se carbonice o se abra (circuito abierto).</li><br>
+
+                        <li><b>Alteración del valor (Deriva):</b> Las resistencias pueden aumentar su valor óhmico
+                            debido al calor prolongado o envejecimiento, superando su tolerancia.</li><br>
+
+                        <li><b>Lectura incorrecta de colores:</b> Confundir la banda de tolerancia (generalmente
+                            dorada/plateada) y leer el componente al réves, lo que invierte los digitos
+                            significativos.</li><br>
+
+                        <li><b>Cortocircuito o Circuito Abierto:</b> Una resistencia puede fallar poniendose en corto
+                            (baja a casi 0 Ω) o, más comúnmente, abriendose (resistencia infinita),
+                            interrumpiendo el flujo de corriente.</li><br>
+
+                        <li><b>Daño Mecánico:</b> Flexionar, torcer o someter a vibraciones excesivas la resistencia
+                            durante el montaje (especialmente en resistencias derivación) puede romper
+                            sus terminales internas.</li><br>
+
+                        <li><b>Efectos de Temperatura:</b> No tomar en cuenta el coeficiente de temperatura, donde
+                            el valor real cambia significativamente en entornos extermos.</li><br>
+
+                        <li><b>Uso de Componentes Inadecuados:</b> Usar resistencias de pelicula de carbono
+                            donde se requieren de pelicula metálica (mayor precisión) o de alambre (mayor
+                            potencia).
+                        </li><br>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="mi-footer">
+            <h3>Electro Arduino</h3>
+            <p>© 2018 Gandalf</p>
+        </footer>
+    </div>
+</body>
+</html>

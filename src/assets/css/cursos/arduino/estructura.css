@@ -1,0 +1,88 @@
+/*===============Background===============*/
+body{
+    background-image: url('../../../../img/wallpapers/wallpaper2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*===============*===============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*===============layout-container===============*/
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*===============mi-header===============*/
+.mi-header{
+    background-color: #08937350;
+    color: white;
+    padding: 20px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mi-header:hover{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============mi-contenido===============*/
+.mi-contenido{
+    flex: 1;
+    padding: 40px;
+    justify-items: center;
+}
+
+/*===============mi-footer===============*/
+.mi-footer{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    transition-duration: 0.50s;
+}
+
+.mi-footer:hover{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============button===============*/
+button{
+    background-color: #085d4c50;
+    border: none;
+    color: white;
+    padding: 12px 27px;
+    margin: 5px;
+    transition-duration: 0.4s;
+    box-shadow: 0.3s ease-in-out;
+    clip-path: polygon(
+        0% 100%, 85% 100%, 100% 50%, 100% 0%, 15% 0%, 0% 50%
+    );
+}
+
+button:hover{
+    padding: 20px;
+    border: 2px solid #ecfdf6;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: inset 0 -1em 1em #2dbe95;
+}
+
+/*===============a===============*/
+a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,461 @@
+/*===============Background===============*/
+body{
+  background: url('../../img/wallpapers/wallpaper3.jpg');
+  /* background-color: black; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*===============*===============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*===============layout-container===============*/
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*===============mi-header===============*/
+.mi-header{
+    background-color: #08937350;
+    color: white;
+    padding: 20px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.50s;
+}
+
+.mi-header:hover{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============mi-contenido===============*/
+.mi-contenido{
+    flex: 1;
+    padding: 40px;
+    justify-items: center;
+}
+
+/*===============mi-footer===============*/
+.mi-footer{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    transition-duration: 0.50s;
+}
+
+.mi-footer:hover{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============button===============*/
+button{
+    background-color: #085d4c50;
+    border: none;
+    color: white;
+    padding: 12px 27px;
+    margin: 5px;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    box-shadow: 0.3s ease-in-out;
+    clip-path: polygon(
+        0% 100%, 85% 100%, 100% 50%, 100% 0%, 15% 0%, 0% 50%
+        );
+}
+
+button:hover{
+    padding: 20px;
+    border: 2px solid #ecfdf6;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 
+    inset 0 -1em 1em #2dbe95;
+    /* 0 0 0 1px rgb(255, 255, 255),
+    0.3em 0.3em 3em red; */
+}
+
+/*===============contenedor8===============*/
+.contenedor8{
+    margin-left: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+/*===============contenedor0===============*/
+.contenedor0{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor0:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor0===============*/
+.subcontenedor0{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============subcontenedor1===============*/
+.subcontenedor1{
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+/*===============contenedor1===============*/
+.contenedor1{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor1:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor2===============*/
+.subcontenedor2{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============subcontenedor3===============*/
+.subcontenedor3{
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+/*===============contenedor2===============*/
+.contenedor2{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor2:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor4===============*/
+.subcontenedor4{
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+/*===============subcontenedor5===============*/
+.subcontenedor5{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============contenedor3===============*/
+.contenedor3{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor3:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor6===============*/
+.subcontenedor6{
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+/*===============subcontenedor7===============*/
+.subcontenedor7{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============contenedor4===============*/
+.contenedor4{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor4:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor8===============*/
+.subcontenedor8{
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+/*===============subcontenedor9===============*/
+.subcontenedor9{
+    flex: 1;
+    margin: 10px;
+}
+
+/*===============contenedor5===============*/
+.contenedor5{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    justify-content: center;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor5:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor10===============*/
+.subcontenedor10{
+    flex: 0;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+/*===============subcontenedor11===============*/
+.subcontenedor11{
+    flex: 0;
+    margin: 10px;
+}
+
+/*===============contenedor6===============*/
+.contenedor6{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.contenedor6:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor12===============*/
+.subcontenedor12{
+    /* display: flex;
+    gap: 10px;
+    flex: 0;
+    margin: 10px;
+    width: auto;
+    height: auto; */
+}
+
+/*===============contenedor7===============*/
+.contenedor7{
+    background: linear-gradient(to top, #08937325, #06765f50);
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 30px auto;
+    padding: 20px;
+    border-radius: 14px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+    justify-content: center;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor7:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============subcontenedor13===============*/
+.subcontenedor13{
+    /* flex: 0;
+    margin: 10px;
+    width: auto;
+    height: auto; */
+}
+
+/*===============img_componente===============*/
+.img_componente{
+    width: 100px;
+    height: 100px;
+}
+
+/*===============img_circuito===============*/
+.img_circuito{
+    width: 600px;
+    height: 250px;
+}
+
+/*===============img_arduino_circuito===============*/
+.img_arduino_circuito{
+    width: 600px;
+    height: 250px;
+}
+
+/*===============img_formula===============*/
+.img_formula{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 35%;
+}
+
+/*===============table===============*/
+table{
+    border: solid 2px white;
+    border-radius: 10px;
+    text-align: center;
+    justify-self: center;
+    padding: 5px;
+}
+
+th{
+    border: solid 2px white;
+    background: linear-gradient(to top, #08937325, #06765f50);
+    border-radius: 6px;
+    text-align: center;
+    width: 400px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+}
+
+td{
+    border: solid 2px white;
+    background: linear-gradient(to top, #08937325, #06765f50);
+    border-radius: 6px;
+    transition-duration: 0.50s;
+    transition: transform 0.3s ease;
+}
+
+th:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+td:hover{
+    transform: translateY(-5px);
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*===============a===============*/
+a{
+    text-decoration: none;
+    color: white;
+}
