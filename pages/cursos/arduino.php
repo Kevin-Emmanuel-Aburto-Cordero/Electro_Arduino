@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../src/assets/css/arduino_curso.css?v=3.0">
+    <link rel="stylesheet" href="../../src/assets/css/arduino_curso.css?v=4.0">
     <link rel="stylesheet" href="../../src/assets/css/fonts/fonts.css?v=1.0">
     <title>Arduino - Módulos</title>
 </head>
