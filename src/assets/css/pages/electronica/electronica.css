@@ -1,7 +1,7 @@
 /*===============Background===============*/
 body{
-  /* background: linear-gradient(to top, #14b58d, #06766088), url('../../img/wallpapers/wallpaper0.jpg'); */
-  background-image: url('../../img/wallpapers/wallpaper4.jpg');
+  /* background: linear-gradient(to top, #14b58d, #06766088), url('../../../../img/wallpapers/wallpaper0.jpg'); */
+  background: url('../../../../img/wallpapers/wallpaper4.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

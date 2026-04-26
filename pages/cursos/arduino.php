@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../src/assets/css/arduino_curso.css?v=4.0">
+    <link rel="stylesheet" href="../../src/assets/css/arduino_curso.css?v=5.0">
     <link rel="stylesheet" href="../../src/assets/css/fonts/fonts.css?v=1.0">
     <title>Arduino - Módulos</title>
 </head>
@@ -45,13 +45,25 @@
             </div>
             <div class="contenedor2">
                 <a href="arduino/estructura/estructura.php">
-                    <button type="submit">Estructura</button>
+                    <button type="submit">
+                        <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
+                        <br>
+                        Estructura
+                    </button>
                 </a>
                 <a href="arduino/variables/#">
-                    <button type="submit">Variables</button>
+                    <button type="submit">
+                        <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
+                        <br>
+                        Variables
+                    </button>
                 </a>
                 <a href="arduino/funciones/#">
-                    <button type="submit">Funciones</button>
+                    <button type="submit">
+                        <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
+                        <br>
+                        Funciones
+                    </button>
                 </a>
                 <br>
                 
