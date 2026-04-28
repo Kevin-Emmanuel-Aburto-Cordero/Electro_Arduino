@@ -44,48 +44,57 @@
                     En Arduino</h2>
             </div>
             <div class="contenedor2">
-
-                <!--<a href="arduino/estructura/estructura.php">-->
-                    <button type="submit" onclick="abrirModal()">
-                        <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
-                        <br>
-                        Estructura
-                    </button>
-                <!--</a>-->
+                <button type="button" onclick="abrirModal(this)" class="btn-leccion" data-url="../cursos/arduino/estructura/estructura.php">
+                    <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
+                    <br>
+                    Estructura
+                </button>
                 <div id="modal" class="modal">
-                        <div class="modal-contenido">
-                            <p>¿Quiere iniciar esta leccion?</p>
-                            <div class="botones">
-                                <button onclick="aceptar()">Aceptar</button>
-                                <button onclick="cerrarModal()">Cancelar</button>
-                            </div>
+                    <div class="modal-contenido">
+                        <p>¿Quiere iniciar esta leccion?</p>
+                        <div class="botones">
+                            <button onclick="aceptar()">Aceptar</button>
+                            <button onclick="cerrarModal()">Cancelar</button>
                         </div>
                     </div>
+                </div>
 
 
-                <a href="arduino/variables/#">
-                    <button type="submit">
-                        <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
-                        <br>
-                        Variables
-                    </button>
-                </a>
-                <a href="arduino/funciones/#">
-                    <button type="submit">
-                        <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
-                        <br>
-                        Funciones
-                    </button>
-                </a>
-                <br>
+                <button type="button" onclick="abrirModal(this)" class="btn-leccion" data-url="../cursos/arduino/variables/variables.php">
+                    <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
+                    <br>
+                    Variables
+                </button>
+                <div id="modal" class="modal">
+                    <div class="modal-contenido">
+                        <p>¿Quiere iniciar esta leccion?</p>
+                        <div class="botones">
+                            <button onclick="aceptar()">Aceptar</button>
+                            <button onclick="cerrarModal()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+
                 
-                <!--<div class="zona-botones">
-                    <button class="btn btn1">Botón 1</button>
-                    <button class="btn btn2">Botón 2</button>
-                </div>-->
+                <button type="button" onclick="abrirModal(this)" class="btn-leccion" data-url="../cursos/arduino/funciones/funciones.php">
+                    <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
+                    <br>
+                    Funciones
+                </button>
+                <div id="modal" class="modal">
+                    <div class="modal-contenido">
+                        <p>¿Quiere iniciar esta leccion?</p>
+                        <div class="botones">
+                            <button onclick="aceptar()">Aceptar</button>
+                            <button onclick="cerrarModal()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
             </div>
         </main>
-        <script src="../../src/assets/js/notificaciones/notificacion.js?v=2.0"></script>
+        <script src="../../src/assets/js/notificaciones/notificacion.js?v=4.0"></script>
         <footer class="mi-footer">
             <h3>Electro Arduino</h3>
             <p>© 2018 Gandalf</p>

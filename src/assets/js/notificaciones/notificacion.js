@@ -1,4 +1,7 @@
-function abrirModal(){
+let destino ="";
+
+function abrirModal(boton){
+    destino = boton.dataset.url;
     document.getElementById("modal").style.display="flex";
 }
 
@@ -7,5 +10,10 @@ function cerrarModal(){
 }
 
 function aceptar(){
-    window.location.href="arduino/estructura/estructura.php";
+    window.location.href=destino;
 }
+
+window.addEventListener("pageshow", function(){
+    cerrarModal();
+    destino = "";
+});
