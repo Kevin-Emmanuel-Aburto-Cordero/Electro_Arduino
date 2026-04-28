@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../src/assets/css/arduino_curso.css?v=5.0">
+    <link rel="stylesheet" href="../../src/assets/css/pages/cursos/arduino_curso.css?v=6.0">
     <link rel="stylesheet" href="../../src/assets/css/fonts/fonts.css?v=1.0">
     <title>Arduino - Módulos</title>
 </head>
@@ -44,13 +44,25 @@
                     En Arduino</h2>
             </div>
             <div class="contenedor2">
-                <a href="arduino/estructura/estructura.php">
-                    <button type="submit">
+
+                <!--<a href="arduino/estructura/estructura.php">-->
+                    <button type="submit" onclick="abrirModal()">
                         <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
                         <br>
                         Estructura
                     </button>
-                </a>
+                <!--</a>-->
+                <div id="modal" class="modal">
+                        <div class="modal-contenido">
+                            <p>¿Quiere iniciar esta leccion?</p>
+                            <div class="botones">
+                                <button onclick="aceptar()">Aceptar</button>
+                                <button onclick="cerrarModal()">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+
+
                 <a href="arduino/variables/#">
                     <button type="submit">
                         <img class="bangbus" src="../../src/img/bangbus_zzz/Safety_Portrait.webp" alt="bangbo">
@@ -73,6 +85,7 @@
                 </div>-->
             </div>
         </main>
+        <script src="../../src/assets/js/notificaciones/notificacion.js?v=2.0"></script>
         <footer class="mi-footer">
             <h3>Electro Arduino</h3>
             <p>© 2018 Gandalf</p>
