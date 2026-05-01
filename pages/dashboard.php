@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/assets/css/dashboard.css?v=2.0">
+    <link rel="stylesheet" href="../src/assets/css/dashboard.css?v=3.0">
     <link rel="stylesheet" href="../src/assets/css/fonts/fonts.css?v=2.0">
     <title>Document</title>
 </head>
@@ -42,17 +42,48 @@
                 </div>
             </div>
             <div class="contenedor1">
-                <a href="../pages/cursos/electronica.php">
-                    <button type="submit">Electronica</button>
-                </a>
-                <a href="../pages/cursos/arduino.php">
-                    <button type="submit">Arduino</button>
-                </a>
-                <a href="https://culturadevops.com.mx">
-                    <button type="submit">DevOps</button>
-                </a>
+
+                
+                <button type="button" onclick="abrirModal(this)" class="btn-leccion" data-url="cursos/electronica.php">Electronica</button>
+                <div id="modal" class="modal">
+                    <div class="modal-contenido">
+                        <p>¿Quieres iniciar el curso de Electronica?</p>
+                        <div class="botones">
+                            <button onclick="aceptar()">Aceptar</button>
+                            <button onclick="cerrarModal()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <button type="submit" onclick="abrirModal(this)" class="btn-leccion" data-url="cursos/arduino.php">Arduino</button>
+                <div id="modal" class="modal">
+                    <div class="modal-contenido">
+                        <p>¿Quieres inicar el curso de Arduino?</p>
+                        <div class="botones">
+                            <button onclick="aceptar()">Aceptar</button>
+                            <button onclick="cerrarModal()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <button type="submit" onclick="abrirModal(this)" class="btn-leccion" data-url="">DevOps</button>
+                <div id="modal" class="modal">
+                    <div class="modal-contenido">
+                        <p>¿Quieres inicar el curso de DevOps?</p>
+                        <div class="botones">
+                            <button onclick="aceptar()">Aceptar</button>
+                            <button onclick="cerrarModal()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </main>
+        <script src="../src/assets/js/notificaciones/dashboard/notificacion_acceder_a_curso.js?v=1.0"></script>
         <footer class="mi-footer">
             <h3>Electro Arduino</h3>
             <p>© 2018 Gandalf</p>

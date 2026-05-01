@@ -94,7 +94,7 @@
                 <br>
             </div>
         </main>
-        <script src="../../src/assets/js/notificaciones/notificacion.js?v=4.0"></script>
+        <script src="../../src/assets/js/notificaciones/cursos/Arduino/notificacion.js?v=4.0"></script>
         <footer class="mi-footer">
             <h3>Electro Arduino</h3>
             <p>© 2018 Gandalf</p>
